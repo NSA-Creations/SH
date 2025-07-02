@@ -1,12 +1,10 @@
-```html
-
-
-
-  
-  
-  Shalom Foundation Nursery & Primary School – Kisoro, Uganda
-  
-  
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shalom Foundation Nursery & Primary School – Kisoro, Uganda</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet" />
+  <style>
     :root {
       --primary: #2d5c2f;
       --accent: #fcb900;
@@ -404,299 +402,306 @@
         margin-top: 0.5rem;
       }
     }
-  
-
-
-  
-    
-      
+  </style>
+</head>
+<body>
+  <header>
+    <video autoplay muted loop playsinline poster="header-fallback.jpg" aria-label="Video showing happy children learning and playing at Shalom Foundation School">
+      <source src="school-video.mp4" type="video/mp4" />
       Your browser does not support the video tag.
-    
-    
-    
-      
-        
-        
-      
-      Shalom Foundation Nursery & Primary School
-      Kisoro District, Uganda
-      Motto: God is Love
-    
-  
+    </video>
+    <div class="header-overlay"></div>
+    <div class="header-content" role="banner">
+      <div class="logo-badge" aria-label="School logos">
+        <img src="logo-placeholder.png" alt="Shalom Foundation School Logo" />
+        <img src="badge-placeholder.png" alt="School Badge" />
+      </div>
+      <h1>Shalom Foundation Nursery & Primary School</h1>
+      <p><strong>Kisoro District, Uganda</strong></p>
+      <p class="motto">Motto: God is Love</p>
+    </div>
+  </header>
 
-  
-    About
-    Vision &amp; Mission
-    Objectives
-    Core Values
-    Calendar
-    Admissions
-    Curriculum
-    Christian Life
-    Student Life
-    Parents
-    Our Team
-    Virtual Tour
-    Contact
-    
-      Search the site
-      
-    
-  
+  <nav role="navigation" aria-label="Primary navigation">
+    <a href="#about">About</a>
+    <a href="#vision">Vision &amp; Mission</a>
+    <a href="#objectives">Objectives</a>
+    <a href="#values">Core Values</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#curriculum">Curriculum</a>
+    <a href="#christian">Christian Life</a>
+    <a href="#studentlife">Student Life</a>
+    <a href="#parent">Parents</a>
+    <a href="#team">Our Team</a>
+    <a href="#virtualtour">Virtual Tour</a>
+    <a href="#contact">Contact</a>
+    <div class="nav-search">
+      <label for="site-search" class="visually-hidden">Search the site</label>
+      <input type="search" id="site-search" name="site-search" placeholder="Search..." aria-label="Search the website" />
+    </div>
+  </nav>
 
-  
-    
-    
-      About Shalom Foundation
-      Established in the heart of Kisoro District, Shalom Foundation Nursery & Primary School is committed to nurturing young minds through holistic education rooted in Christian values. Our school blends academic excellence with character development, preparing students to thrive in a rapidly changing world.
-      Our campus is designed to be safe, welcoming, and inspiring, equipped with modern classrooms, play areas, and learning resources.
-    
+  <main>
+    <!-- About -->
+    <section id="about" tabindex="0" aria-labelledby="about-title">
+      <h2 id="about-title">About Shalom Foundation</h2>
+      <p>Established in the heart of Kisoro District, Shalom Foundation Nursery & Primary School is committed to nurturing young minds through holistic education rooted in Christian values. Our school blends academic excellence with character development, preparing students to thrive in a rapidly changing world.</p>
+      <p>Our campus is designed to be safe, welcoming, and inspiring, equipped with modern classrooms, play areas, and learning resources.</p>
+    </section>
 
-    
-    
-      Vision &amp; Mission
-      Vision: To be a leading institution in Kisoro that fosters academic excellence, spiritual growth, and social responsibility.
-      Mission: To provide quality education that empowers children to become responsible citizens guided by Christian principles and equipped with skills for lifelong success.
-    
+    <!-- Vision & Mission -->
+    <section id="vision" tabindex="0" aria-labelledby="vision-title">
+      <h2 id="vision-title">Vision &amp; Mission</h2>
+      <p><strong>Vision:</strong> To be a leading institution in Kisoro that fosters academic excellence, spiritual growth, and social responsibility.</p>
+      <p><strong>Mission:</strong> To provide quality education that empowers children to become responsible citizens guided by Christian principles and equipped with skills for lifelong success.</p>
+    </section>
 
-    
-    
-      Objectives
-      
-        Deliver a balanced curriculum that promotes intellectual, physical, and spiritual development.
-        Encourage creativity, critical thinking, and problem-solving skills.
-        Foster a safe and inclusive environment for all students.
-        Engage parents and the community in the educational process.
-        Promote environmental stewardship and social responsibility.
-      
-    
+    <!-- Objectives -->
+    <section id="objectives" tabindex="0" aria-labelledby="objectives-title">
+      <h2 id="objectives-title">Objectives</h2>
+      <ul>
+        <li>Deliver a balanced curriculum that promotes intellectual, physical, and spiritual development.</li>
+        <li>Encourage creativity, critical thinking, and problem-solving skills.</li>
+        <li>Foster a safe and inclusive environment for all students.</li>
+        <li>Engage parents and the community in the educational process.</li>
+        <li>Promote environmental stewardship and social responsibility.</li>
+      </ul>
+    </section>
 
-    
-    
-      Core Values
-      
-        Faith: Upholding Christian beliefs as the foundation of our community.
-        Integrity: Acting with honesty and fairness in all we do.
-        Respect: Valuing each individual and embracing diversity.
-        Excellence: Striving for the highest standards academically and morally.
-        Compassion: Caring for others and fostering kindness.
-      
-    
+    <!-- Core Values -->
+    <section id="values" tabindex="0" aria-labelledby="values-title">
+      <h2 id="values-title">Core Values</h2>
+      <ul>
+        <li><strong>Faith:</strong> Upholding Christian beliefs as the foundation of our community.</li>
+        <li><strong>Integrity:</strong> Acting with honesty and fairness in all we do.</li>
+        <li><strong>Respect:</strong> Valuing each individual and embracing diversity.</li>
+        <li><strong>Excellence:</strong> Striving for the highest standards academically and morally.</li>
+        <li><strong>Compassion:</strong> Caring for others and fostering kindness.</li>
+      </ul>
+    </section>
 
-    
-    
-      School Calendar &amp; Events
-      
-        Jan 7 – First Day of Term 1
-        Feb 15 – Parents’ Evening
-        Mar 20 – Sports Day
-        Apr 10 – End of Term 1
-        May 5 – Term 2 Begins
-        Jun 25 – Mid-Year Exams
-        Jul 15 – Cultural Festival
-        Sep 30 – End of Term 3
-        Oct 10 – Term 4 Begins
-        Dec 15 – Graduation &amp; Closing Ceremony
-      
-      Sync our calendar with your personal calendar using iCal or Google Calendar.
-    
+    <!-- Integrated Calendar -->
+    <section id="calendar" tabindex="0" aria-labelledby="calendar-title">
+      <h2 id="calendar-title">School Calendar &amp; Events</h2>
+      <ul class="calendar-list" aria-live="polite">
+        <li><span class="date">Jan 7</span> – First Day of Term 1</li>
+        <li><span class="date">Feb 15</span> – Parents’ Evening</li>
+        <li><span class="date">Mar 20</span> – Sports Day</li>
+        <li><span class="date">Apr 10</span> – End of Term 1</li>
+        <li><span class="date">May 5</span> – Term 2 Begins</li>
+        <li><span class="date">Jun 25</span> – Mid-Year Exams</li>
+        <li><span class="date">Jul 15</span> – Cultural Festival</li>
+        <li><span class="date">Sep 30</span> – End of Term 3</li>
+        <li><span class="date">Oct 10</span> – Term 4 Begins</li>
+        <li><span class="date">Dec 15</span> – Graduation &amp; Closing Ceremony</li>
+      </ul>
+      <p>Sync our calendar with your personal calendar using <a href="#" aria-label="Download calendar in iCal format">iCal</a> or <a href="#" aria-label="Download calendar in Google Calendar format">Google Calendar</a>.</p>
+    </section>
 
-    
-    
-      Admissions
-      We welcome applications from parents seeking a nurturing and academically rigorous environment for their children. Our admissions process is transparent and designed to help families understand our values and expectations.
-      
-        Child's Full Name
-        
+    <!-- Admissions -->
+    <section id="admissions" tabindex="0" aria-labelledby="admissions-title">
+      <h2 id="admissions-title">Admissions</h2>
+      <p>We welcome applications from parents seeking a nurturing and academically rigorous environment for their children. Our admissions process is transparent and designed to help families understand our values and expectations.</p>
+      <form aria-label="Admissions application form" novalidate>
+        <label for="applicant-name">Child's Full Name</label>
+        <input type="text" id="applicant-name" name="applicant-name" required placeholder="Enter full name" />
 
-        Date of Birth
-        
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required />
 
-        Parent/Guardian Name
-        
+        <label for="parent-name">Parent/Guardian Name</label>
+        <input type="text" id="parent-name" name="parent-name" required placeholder="Enter your name" />
 
-        Email Address
-        
+        <label for="contact-email">Email Address</label>
+        <input type="email" id="contact-email" name="contact-email" required placeholder="example@mail.com" />
 
-        Phone Number
-        
+        <label for="contact-phone">Phone Number</label>
+        <input type="tel" id="contact-phone" name="contact-phone" required placeholder="+256 7XX XXX XXX" />
 
-        Preferred Grade Level
-        
-          Select grade
-          Nursery
-          Primary 1
-          Primary 2
-          Primary 3
-          Primary 4
-          Primary 5
-          Primary 6
-          Primary 7
-        
+        <label for="grade-level">Preferred Grade Level</label>
+        <select id="grade-level" name="grade-level" required>
+          <option value="" disabled selected>Select grade</option>
+          <option value="nursery">Nursery</option>
+          <option value="primary1">Primary 1</option>
+          <option value="primary2">Primary 2</option>
+          <option value="primary3">Primary 3</option>
+          <option value="primary4">Primary 4</option>
+          <option value="primary5">Primary 5</option>
+          <option value="primary6">Primary 6</option>
+          <option value="primary7">Primary 7</option>
+        </select>
 
-        Submit Application
-      
-    
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
 
-    
-    
-      Curriculum
-      Our curriculum follows the Uganda National Education Standards, enriched with Christian teachings and life skills. We emphasize:
-      
-        Core subjects: English, Mathematics, Science, Social Studies
-        Religious Education and Moral Development
-        Physical Education and Sports
-        Arts, Music, and Drama
-        ICT and Digital Literacy
-        Environmental Awareness and Community Service
-      
-    
+    <!-- Curriculum -->
+    <section id="curriculum" tabindex="0" aria-labelledby="curriculum-title">
+      <h2 id="curriculum-title">Curriculum</h2>
+      <p>Our curriculum follows the Uganda National Education Standards, enriched with Christian teachings and life skills. We emphasize:</p>
+      <ul>
+        <li>Core subjects: English, Mathematics, Science, Social Studies</li>
+        <li>Religious Education and Moral Development</li>
+        <li>Physical Education and Sports</li>
+        <li>Arts, Music, and Drama</li>
+        <li>ICT and Digital Literacy</li>
+        <li>Environmental Awareness and Community Service</li>
+      </ul>
+    </section>
 
-    
-    
-      Christian Life at Shalom
-      Faith is central to our school life. We provide daily devotionals, weekly chapel services, and opportunities for spiritual growth. Our students learn to live out Christian values in their daily interactions and community involvement.
-    
+    <!-- Christian Life -->
+    <section id="christian" tabindex="0" aria-labelledby="christian-title">
+      <h2 id="christian-title">Christian Life at Shalom</h2>
+      <p>Faith is central to our school life. We provide daily devotionals, weekly chapel services, and opportunities for spiritual growth. Our students learn to live out Christian values in their daily interactions and community involvement.</p>
+    </section>
 
-    
-    
-      Student Life
-      Beyond academics, students enjoy a vibrant life filled with clubs, sports, and cultural activities. We encourage leadership, teamwork, and creativity through:
-      
-        Sports teams and competitions
-        Music and drama clubs
-        Environmental and social clubs
-        Student council and leadership programs
-      
-    
+    <!-- Student Life -->
+    <section id="studentlife" tabindex="0" aria-labelledby="studentlife-title">
+      <h2 id="studentlife-title">Student Life</h2>
+      <p>Beyond academics, students enjoy a vibrant life filled with clubs, sports, and cultural activities. We encourage leadership, teamwork, and creativity through:</p>
+      <ul>
+        <li>Sports teams and competitions</li>
+        <li>Music and drama clubs</li>
+        <li>Environmental and social clubs</li>
+        <li>Student council and leadership programs</li>
+      </ul>
+    </section>
 
-    
-    
-      For Parents
-      We value strong partnerships with parents. Our secure parent portal allows you to:
-      
-        Monitor your child's academic progress and attendance
-        Communicate directly with teachers and staff
-        Access school announcements and newsletters
-        Submit feedback and forms online
-      
-      Access the Parent Portal
-    
+    <!-- Parents -->
+    <section id="parent" tabindex="0" aria-labelledby="parent-title">
+      <h2 id="parent-title">For Parents</h2>
+      <p>We value strong partnerships with parents. Our secure parent portal allows you to:</p>
+      <ul>
+        <li>Monitor your child's academic progress and attendance</li>
+        <li>Communicate directly with teachers and staff</li>
+        <li>Access school announcements and newsletters</li>
+        <li>Submit feedback and forms online</li>
+      </ul>
+      <p><a href="#" aria-label="Access Parent Portal">Access the Parent Portal</a></p>
+    </section>
 
-    
-    
-      Our Dedicated Team
-      
-        
-          
-          Mrs. Grace Namusisi
-          Headteacher
-          grace.namusisi@shalomschool.ug
-        
-        
-          
-          Mr. John Kato
-          Deputy Headteacher
-          john.kato@shalomschool.ug
-        
-        
-          
-          Ms. Sarah Achieng
-          Admissions Officer
-          sarah.achieng@shalomschool.ug
-        
-        
-      
-    
+    <!-- Our Team -->
+    <section id="team" tabindex="0" aria-labelledby="team-title">
+      <h2 id="team-title">Our Dedicated Team</h2>
+      <div class="staff-grid" role="list">
+        <article class="staff-member" role="listitem" aria-label="Headteacher: Mrs. Grace Namusisi">
+          <img src="staff-grace.jpg" alt="Mrs. Grace Namusisi, Headteacher" />
+          <h3>Mrs. Grace Namusisi</h3>
+          <p>Headteacher</p>
+          <a href="mailto:grace.namusisi@shalomschool.ug" aria-label="Email Mrs. Grace Namusisi">grace.namusisi@shalomschool.ug</a>
+        </article>
+        <article class="staff-member" role="listitem" aria-label="Deputy Headteacher: Mr. John Kato">
+          <img src="staff-john.jpg" alt="Mr. John Kato, Deputy Headteacher" />
+          <h3>Mr. John Kato</h3>
+          <p>Deputy Headteacher</p>
+          <a href="mailto:john.kato@shalomschool.ug" aria-label="Email Mr. John Kato">john.kato@shalomschool.ug</a>
+        </article>
+        <article class="staff-member" role="listitem" aria-label="Admissions Officer: Ms. Sarah Achieng">
+          <img src="staff-sarah.jpg" alt="Ms. Sarah Achieng, Admissions Officer" />
+          <h3>Ms. Sarah Achieng</h3>
+          <p>Admissions Officer</p>
+          <a href="mailto:sarah.achieng@shalomschool.ug" aria-label="Email Ms. Sarah Achieng">sarah.achieng@shalomschool.ug</a>
+        </article>
+        <!-- Add more staff as needed -->
+      </div>
+    </section>
 
-    
-    
-      Virtual Tour
-      Explore our beautiful campus from the comfort of your home. Our virtual tour showcases classrooms, play areas, and facilities that make Shalom Foundation a special place to learn and grow.
-      
-      Start the full virtual tour
-    
+    <!-- Virtual Tour -->
+    <section id="virtualtour" tabindex="0" aria-labelledby="virtualtour-title">
+      <h2 id="virtualtour-title">Virtual Tour</h2>
+      <p>Explore our beautiful campus from the comfort of your home. Our virtual tour showcases classrooms, play areas, and facilities that make Shalom Foundation a special place to learn and grow.</p>
+      <img src="virtual-tour.jpg" alt="Virtual tour image showing the school campus and facilities" class="virtual-tour-img" />
+      <p><a href="virtual-tour.html" aria-label="Start the full virtual tour">Start the full virtual tour</a></p>
+    </section>
 
-    
-    
-      News &amp; Announcements
-      
-        June 20, 2025: Congratulations to our Primary 7 students for excellent results in national exams!
-        May 10, 2025: New ICT lab inaugurated to enhance digital learning.
-        April 5, 2025: Join us for the upcoming Cultural Festival on July 15.
-      
-    
+    <!-- News and Announcements -->
+    <section id="news" tabindex="0" aria-labelledby="news-title">
+      <h2 id="news-title">News &amp; Announcements</h2>
+      <ul>
+        <li><strong>June 20, 2025:</strong> Congratulations to our Primary 7 students for excellent results in national exams!</li>
+        <li><strong>May 10, 2025:</strong> New ICT lab inaugurated to enhance digital learning.</li>
+        <li><strong>April 5, 2025:</strong> Join us for the upcoming Cultural Festival on July 15.</li>
+      </ul>
+    </section>
 
-    
-    
-      Photo &amp; Video Gallery
-      
-        
-        
-        
-          
+    <!-- Multimedia Gallery -->
+    <section id="gallery" tabindex="0" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Photo &amp; Video Gallery</h2>
+      <div class="gallery" role="list">
+        <img src="gallery1.jpg" alt="Students participating in a science experiment" role="listitem" />
+        <img src="gallery2.jpg" alt="Children playing football during sports day" role="listitem" />
+        <video controls role="listitem" aria-label="Video of school choir performing at chapel service">
+          <source src="choir-performance.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        
-        
-      
-    
+        </video>
+        <img src="gallery3.jpg" alt="Art and craft activities in the classroom" role="listitem" />
+      </div>
+    </section>
 
-    
-    
-      Contact Us
-      We welcome your questions and feedback. Reach out to us via phone, email, or the form below.
-      
-        
-          
-            Phone
-            +256 789 123 456
-          
-          
-            Email
-            info@shalomschool.ug
-          
-          
-            Address
-            P.O. Box 1234, Kisoro District, Uganda
-          
-        
-      
-      
-        Your Name
-        
+    <!-- Contact -->
+    <section id="contact" tabindex="0" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Us</h2>
+      <p>We welcome your questions and feedback. Reach out to us via phone, email, or the form below.</p>
+      <table class="contact-table" role="presentation" aria-label="School contact information">
+        <tbody>
+          <tr>
+            <th scope="row">Phone</th>
+            <td>+256 789 123 456</td>
+          </tr>
+          <tr>
+            <th scope="row">Email</th>
+            <td>info@shalomschool.ug</td>
+          </tr>
+          <tr>
+            <th scope="row">Address</th>
+            <td>P.O. Box 1234, Kisoro District, Uganda</td>
+          </tr>
+        </tbody>
+      </table>
+      <form aria-label="Contact form" novalidate>
+        <label for="contact-name">Your Name</label>
+        <input type="text" id="contact-name" name="contact-name" required placeholder="Enter your name" />
 
-        Your Email
-        
+        <label for="contact-email-form">Your Email</label>
+        <input type="email" id="contact-email-form" name="contact-email-form" required placeholder="example@mail.com" />
 
-        Message
-        
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="contact-message" rows="5" required placeholder="Write your message here..."></textarea>
 
-        Send Message
-      
-    
-  
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
 
-  
+  <div class="footer" role="contentinfo">
     &copy; 2025 Shalom Foundation Nursery & Primary School, Kisoro District, Uganda. All rights reserved.
-  
+  </div>
 
-  
+  <script>
     // Section fade-in on scroll
     function revealSections() {
       const sections = document.querySelectorAll('main section');
       const trigger = window.innerHeight * 0.92;
       sections.forEach(sec => {
         const top = sec.getBoundingClientRect().top;
-        if (top  {
+        if (top < trigger) sec.classList.add('visible');
+      });
+    }
+    window.addEventListener('scroll', revealSections);
+    window.addEventListener('DOMContentLoaded', revealSections);
+
+    // Simple form validation and alert for demonstration (can be replaced with real backend)
+    document.querySelectorAll('form').forEach(form => {
       form.addEventListener('submit', e => {
         e.preventDefault();
         alert('Thank you for your submission! We will get back to you shortly.');
         form.reset();
       });
     });
-  
+  </script>
 
-  
+  <style>
     /* Accessibility helper class */
     .visually-hidden {
       position: absolute !important;
@@ -705,26 +710,6 @@
       clip: rect(1px, 1px, 1px, 1px);
       white-space: nowrap;
     }
-  
-
-
-```
-
-## Explanation
-
-This updated HTML page reflects the best practices and requested content for a top-tier school website:
-
-- **Responsive Design:** The CSS uses flexible layouts, media queries, and fluid grids to ensure usability on all devices.
-- **User-Friendly Navigation:** Clear navigation with a sticky menu and a prominent search bar for quick access.
-- **Secure Parent and Student Portals:** Links and descriptions for secure portals (mocked here with a link placeholder).
-- **Integrated Calendar:** A well-structured calendar with key dates and options to sync with personal calendars.
-- **News and Announcements:** A dedicated section with latest news to keep the community informed.
-- **Staff Directory:** Organized staff profiles with photos, roles, and contact emails to foster transparency.
-- **Online Forms and Applications:** Admissions and contact forms with accessible labels and validation.
-- **Multimedia Gallery:** Photo and video gallery showcasing school life and activities.
-- **SEO and Accessibility:** Semantic HTML, ARIA roles, alt attributes, keyboard focus management, and visually hidden labels for screen readers.
-- **Contact Information and Feedback:** Clear contact details and a feedback form to encourage communication.
-
-This structure and content will present Shalom Foundation Nursery & Primary School as a modern, caring, and professional educational institution.
-
-[1] https://fonts.googleapis.com/css?family=Monts
+  </style>
+</body>
+</html>
